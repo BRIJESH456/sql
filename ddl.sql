@@ -1,4 +1,4 @@
-	CREATE TABLE products (
+CREATE TABLE products (
   product_id number(11) NOT NULL ,
   product_category_id number(11) NOT NULL,
   product_name varchar2(45) NOT NULL,
