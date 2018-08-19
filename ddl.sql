@@ -41,9 +41,10 @@ CREATE TABLE order_items (
   
 CREATE TABLE orders (
   order_id Integer ,
-  order_date date NOT NULL,
+  order_date varchar2(25),
   order_customer_id Integer,
   order_status varchar2(45),
   CONSTRAINT order_id_pk PRIMARY KEY (order_id));
+
   
   
